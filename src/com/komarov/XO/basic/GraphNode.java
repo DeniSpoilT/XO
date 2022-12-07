@@ -8,16 +8,16 @@ public class GraphNode {
 
     private final Set<GraphNode> children;
 
-    public GraphNode(final Field node, Set <GraphNode> children){
+    public GraphNode(final Field node, Set<GraphNode> children) {
         this.node = node;
         this.children = children;
     }
 
-    public Field getNode(){
+    public Field getNode() {
         return node;
     }
 
-    public Set<GraphNode> getChildren(){
+    public Set<GraphNode> getChildren() {
         return children;
     }
 
